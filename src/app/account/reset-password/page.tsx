@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { ChevronRight } from "lucide-react";
-import { createClient } from "@/src/utils/supabase/server";
+import { createClient } from "@/src/supabase/server";
 
 export default async function UpdatePassword({
   searchParams,
